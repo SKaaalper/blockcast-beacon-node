@@ -118,6 +118,8 @@ Go to: [https://app.blockcast.network](https://app.blockcast.network?referral-co
 - Allow Location Access when prompted by your browser
 - Save it!
 
+![image](https://github.com/user-attachments/assets/a2201cb0-c604-40b3-8d42-9e7359e60404)
+
 9. Verify Node Status
 - Your node should show Healthy status within a few minutes
 - Click on your node to view uptime, rewards, and connectivity
