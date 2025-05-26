@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/94e9bef9-8fe4-436a-a129-05f541ff5682)
 
-Guide: How to [Buy a VPS Server](https://medium.com/@Airdrop_Jheff/guide-on-how-to-buy-a-vps-server-from-contabo-and-set-it-up-on-termius-0928e0e5cb5d) from Contabo and Set It Up Using Termius
+Guide: **How to [Buy a VPS Server](https://medium.com/@Airdrop_Jheff/guide-on-how-to-buy-a-vps-server-from-contabo-and-set-it-up-on-termius-0928e0e5cb5d) from Contabo and Set It Up Using Termius**
 
 ### Register Account:
 Go to: [https://app.blockcast.network](https://app.blockcast.network?referral-code=SfD1Be)
