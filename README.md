@@ -70,10 +70,10 @@ docker compose up -d
 docker compose ps
 ```
 You should see the following services running:
-- blockcastd
-- beacond
-- control_proxy
-- watchtower
+- `blockcastd`
+- `beacond`
+- `control_proxy`
+- `watchtower`
 ![image](https://github.com/user-attachments/assets/60146836-808c-448d-8fc4-d2b14a2d6c92)
 
 6. View Logs:
