@@ -1,0 +1,40 @@
+x-service: &service
+  image: blockcast/cdn_gateway_go:${IMAGE_VERSION:-stable}
+  restart: unless-stopped
+  network_mode: "service:blockcastd"
+  volumes:
+    - ${HOME}/.blockcast/certs:/var/opt/magma/certs
+    - ${HOME}/.blockcast/snowflake:/etc/snowflake
+    - /var/run/docker.sock:/var/run/docker.sock
+  labels:
+    - "com.centurylinklabs.watchtower.enable=true"
+
+services:
+  blockcastd:
+    <<: *service
+    container_name: blockcastd
+    command: /usr/bin/blockcastd -logtostderr=true -v=0
+    network_mode: bridge
+
+  control_proxy:
+    <<: *service
+    container_name: control_proxy
+    command: /usr/bin/control_proxy
+    depends_on:
+      - blockcastd
+
+  beacond:
+    <<: *service
+    container_name: beacond
+    command: /usr/bin/beacond -logtostderr=true -v=0
+    depends_on:
+      - blockcastd
+
+  watchtower:
+    image: containrrr/watchtower
+    container_name: watchtower
+    restart: unless-stopped
+    environment:
+      WATCHTOWER_LABEL_ENABLE: "true"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
