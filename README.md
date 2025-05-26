@@ -107,7 +107,7 @@ https://app.blockcast.network/register?hwid=c6ff0e6f-bc4d-4151-47c3-07df0e3cf53f
 ```
 cat ~/.blockcast/certs/gw_challenge.key
 ```
-![image](https://github.com/user-attachments/assets/608fba6f-f147-46d3-9dc4-7b682db23048)
+![image](https://github.com/user-attachments/assets/e30ccf50-110b-4fc8-bc8e-b1c658395146)
 
 8. Register Your Node:
 Go to: [https://app.blockcast.network](https://app.blockcast.network?referral-code=SfD1Be)
