@@ -7,7 +7,7 @@ Guide: **How to [Buy a VPS Server](https://medium.com/@Airdrop_Jheff/guide-on-ho
 ### Register Account:
 Go to: [https://app.blockcast.network](https://app.blockcast.network?referral-code=SfD1Be)
 - Use my Code: `SfD1Be`
-- Connect your SOL wallet (Burner Wallet recommended)
+- Go to `"Profile"` Connect your SOL wallet (Burner Wallet recommended)
 
 
 | Component   | Requirement                                     |
