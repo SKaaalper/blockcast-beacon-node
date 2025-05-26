@@ -123,6 +123,7 @@ Go to: [https://app.blockcast.network](https://app.blockcast.network?referral-co
 9. Verify Node Status
 - Your node should show Healthy status within a few minutes
 - Click on your node to view uptime, rewards, and connectivity
+![image](https://github.com/user-attachments/assets/c1273c2b-eb09-4d92-bd7c-06c3887b71f1)
 
 ⚠️ **Important Notes**:
 - **First Test: Node must be online for 6 hours**
