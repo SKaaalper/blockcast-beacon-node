@@ -1,1 +1,1 @@
-# blockcast-beacon-node
+# blockcast-beacon-node https://t.me/KatayanAirdropGofC
